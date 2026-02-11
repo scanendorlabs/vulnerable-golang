@@ -1,0 +1,29 @@
+# Test file with vulnerable dependencies for Endor Labs scanning demo
+# These packages have known CVEs at these versions
+
+# CVE-2018-18074 - information disclosure
+requests==2.19.1
+
+# Multiple CVEs including CRLF injection
+urllib3==1.24.1
+
+# Multiple CVEs, outdated cryptographic algorithms
+cryptography==2.1.4
+
+# Debug mode vulnerabilities
+flask==0.12.2
+
+# Multiple CVEs including SQL injection, XSS
+django==2.2.0
+
+# Sandbox escape vulnerabilities
+jinja2==2.10
+
+# CVE-2019-20477 - arbitrary code execution
+pyyaml==5.1
+
+# Multiple buffer overflow CVEs
+pillow==6.0.0
+
+# XXE (XML External Entity) vulnerability
+lxml==4.2.0
